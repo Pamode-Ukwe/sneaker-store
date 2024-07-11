@@ -1,6 +1,6 @@
 import imageOne from '../src/assets/stock-6.png'
 import imageTwo from '../src/assets/stock-12.png'
-import imageThree from '../src/assets/stock-11.png'
+import imageThree from './assets/stock-11.png'
 
 const Checkout = () => {
   return (
@@ -83,13 +83,13 @@ const Checkout = () => {
         <div className="w-[400px] border border-gray-400 h-fit px-4 py-3 rounded-md mx-auto md:mx-0 mt-8 md:mt-0">
           <p className="font-semibold text-lg mb-8">Order summary</p>
           {/* Item 1 */}
-          <div className='md:flex gap-3'>
+          <div className='flex gap-3'>
             <div className='w-[18%]'>
               <img src={imageOne} alt="Image" className='size-18'/>
             </div>
             <div>
               <p className="text-xs font-semibold w-full flex gap-32 pb-1"><span>Jordan Spizike Low</span><span>₦124,000</span></p>
-              <p className='text-xs py-1 text-gray-500 font-semibold'>Color white</p>
+              <p className='text-xs py-1 text-gray-500 font-semibold'>Color white <span className='text-lg md:hidden ml-[70%]'>X</span></p>
               <span className='flex text-xs p-1 border w-[20%] justify-between'><p>-</p>&nbsp;2&nbsp;<p>+</p></span>
             </div>
           </div>
@@ -101,7 +101,7 @@ const Checkout = () => {
             </div>
             <div>
               <p className="text-xs font-semibold w-full flex gap-32 pb-1"><span>Jordan Max Aura 6</span><span>₦124,000</span></p>
-              <p className='text-xs py-1 text-gray-500 font-semibold'>Color black</p>
+              <p className='text-xs py-1 text-gray-500 font-semibold'>Color black <span className='text-lg md:hidden ml-[70%]'>X</span></p>
               <span className='flex text-xs p-1 border w-[20%] justify-between'><p>-</p>&nbsp;2&nbsp;<p>+</p></span>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Checkout = () => {
             </div>
             <div>
               <p className="text-xs font-semibold w-full flex gap-32 pb-1"><span>Air Jordan 1 Element</span><span>₦124,000</span></p>
-              <p className='text-xs py-1 text-gray-500 font-semibold'>Color blue</p>
+              <p className='text-xs py-1 text-gray-500 font-semibold'>Color blue <span className='text-lg md:hidden ml-[70%]'>X</span></p>
               <span className='flex text-xs p-1 border w-[20%] justify-between'><p>-</p>&nbsp;2&nbsp;<p>+</p></span>
             </div>
           </div>
