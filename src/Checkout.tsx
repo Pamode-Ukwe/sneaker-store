@@ -1,6 +1,6 @@
-import imageOne from '../src/assets/stock-6.png'
-import imageTwo from '../src/assets/stock-12.png'
-import imageThree from './assets/stock-11.png'
+import firstImage from './assets/stock-6.png'
+import secondImage from './assets/stock-12.png'
+import thirdImage from './assets/stock-11.png'
 
 const Checkout = () => {
   return (
@@ -85,7 +85,7 @@ const Checkout = () => {
           {/* Item 1 */}
           <div className='flex gap-3'>
             <div className='w-[18%]'>
-              <img src={imageOne} alt="Image" className='size-18'/>
+              <img src={firstImage} alt="Image" className='size-18'/>
             </div>
             <div>
               <p className="text-xs font-semibold w-full flex gap-32 pb-1"><span>Jordan Spizike Low</span><span>₦124,000</span></p>
@@ -97,7 +97,7 @@ const Checkout = () => {
           {/* Item 2 */}
           <div className='flex gap-3 mt-8'>
             <div className='w-[18%]'>
-              <img src={imageTwo} alt="Image" className='size-18'/>
+              <img src={secondImage} alt="Image" className='size-18'/>
             </div>
             <div>
               <p className="text-xs font-semibold w-full flex gap-32 pb-1"><span>Jordan Max Aura 6</span><span>₦124,000</span></p>
@@ -109,7 +109,7 @@ const Checkout = () => {
           {/* Item 3 */}
           <div className='flex gap-3 mt-8'>
             <div className='w-[18%]'>
-              <img src={imageThree} alt="Image" className='size-18'/>
+              <img src={thirdImage} alt="Image" className='size-18'/>
             </div>
             <div>
               <p className="text-xs font-semibold w-full flex gap-32 pb-1"><span>Air Jordan 1 Element</span><span>₦124,000</span></p>

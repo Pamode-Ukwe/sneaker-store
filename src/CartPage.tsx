@@ -1,12 +1,12 @@
 import Checkout from "./Checkout"
 import Footer from "./Footer"
-import CartItems from "./InnerCartPage.tsx/CartItems"
+import CartItems from "./CartItems"
 import Navbar from "./Navbar"
-import { useShuffleContext } from "./ShuffleContext"
+import { useState } from "react"
 
 
 const CartPage = () => {
-  const {modalOne, setModalOne} = useShuffleContext()
+  const [modalOne, setModalOne] = useState(true)
   function shuffle() {
     setModalOne(false)
   }
