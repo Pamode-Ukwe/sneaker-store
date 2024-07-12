@@ -1,6 +1,6 @@
+import CartItems from "./CartItems"
 import Checkout from "./Checkout"
 import Footer from "./Footer"
-import CartItems from "./CartItems"
 import Navbar from "./Navbar"
 import { useState } from "react"
 

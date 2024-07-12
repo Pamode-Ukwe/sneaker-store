@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import CartPage from './CartPage'
 import LandingLayout from './LandingLayout'
@@ -11,12 +11,12 @@ import LandingLayout from './LandingLayout'
 function App() {
   
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<LandingLayout/>}/>
         <Route path='/cart' element={<CartPage/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

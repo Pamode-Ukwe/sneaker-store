@@ -1,5 +1,6 @@
 {
   "name": "sneaker-store",
+  "homepage": "https://pamode-ukwe/github.io/sneaker-store",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,8 @@
     "serve": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "start": "vite"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@types/react-router-dom": "^5.3.3",
@@ -29,11 +31,13 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh": "^2.8.9",
     "gh-pages": "^6.1.1",
+    "pages": "^0.0.16",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.2.2",
-    "vite": "^5.3.1"
-  },
-  "homepage": "https://pamode-ukwe.github.io/sneaker-store"
+    "vite": "^5.3.1",
+    "vite-plugin-gh-pages": "^0.4.1"
+  }
 }
